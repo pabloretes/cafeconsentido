@@ -1,67 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
-	<title>Clase 2</title>
-</head>
-<body>
-	<!-- fila de logo + nav --> 
-	<header>
-		<h3>LOGO</h3>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pages/servicios.html">Servicios</a></li>
-				<li><a href="pages/ubicacion.html">ubicacion</a></li>
-				<li><a href="pages/producto.html">producto</a></li>
-				<li><a href="pages/contacto.html">Contacto</a></li>
-				<li><a href="https://www.google.com" target="_blank">Ir a GOOGLE</a></li>
-			</ul>
-			</ul>
-		</nav>
-	</header>
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-	<section>
-		<article id="noticia">
-			<ol>
-				<li>Habitacion X</li>
-				<li>Habitacion Y</li>
-				<li>Habitacion Z</li>
-			</ol>
-			<h3 >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque, mollitia quos sit aspernatur ratione suscipit officiis repellendus architecto optio eum officia laborum cum dolore possimus perspiciatis molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa inventore, debitis distinctio voluptatem atque tempora corrupti quod optio laborum odit, molestias tenetur, nesciunt dolorum doloremque perferendis ex! Eius, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eligendi tenetur aperiam laudantium nobis repellat quibusdam cum debitis, consectetur dolorem fugit magnam veniam non saepe, reiciendis, tempora nihil quia nisi, harum? Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Magnam cum excepturi ut ipsa veniam suscipit nostrum aut nulla voluptas, blanditiis accusamus soluta temporibus laborum atque maiores amet incidunt placeat maxime.</h3>
-			<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam voluptatem et suscipit quas facere tempora incidunt cupiditate officia accusantium maiores quam officiis quisquam eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis nostrum officia enim laudantium, vitae fugiat, ducimus ab debitis itaque, alias optio voluptate? Laborum nemo odio illo magni illum iure aut! Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nostrum doloremque, aperiam accusamus. Quod, consequatur! Nam distinctio laborum eius officiis, explicabo ipsa, nostrum at aperiam adipisci delectus iusto deserunt repellendus, harum. </h2>
-		</article>
-	</section>
-	<section>
-		<article>
-			<table border="1" cellpadding="1" cellspacing="1">
-				<tr>
-					<th>Codigo</th>
-					<th>Nombre</th>
-					<th>Descripción</th>
-					<th>Valor</th>
-					<th>xxx</th>
-					<th>yyyy</th>
-				</tr>
-				<tr>
-					<td>0001</td>
-					<td>Pelota de Basket</td>
-					<td>Spalding de cuero n7</td>
-					<td>$5700</td>
-					<td>zzzz</td>
-				</tr>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe con Sentido</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/Logo_Cafe_con_sentido-05.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container-home">
+      <header>
+        <!--Menu que irá en todas las páginas-->
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+          <img id="img-hamburg" src="./img/hamburg.png" />
+        </label>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./pages/quienessomos.html">Quienes somos</a></li>
+            <li><a href="./pages/talleres.html">Talleres y Aprendizajes</a></li>
+            <li><a href="./pages/confian.html">Confian en nosotros</a></li>
+            <li><a href="./pages/contactanos.html">Habla con un coach</a></li>
+          </ul>
+        </nav>
+        <!--Fin Menu-->
+      </header>
+      <main>
+        <!-- Slider Home-->
+        <div class="main__slider">
+          <ul>
+            <li><img src="./img/imagen1.jpeg" alt="" /></li>
+            <li><img src="./img/imagen2.jpeg" alt="" /></li>
+            <li><img src="./img/imagen3.jpeg" alt="" /></li>
+          </ul>
+        </div>
+        <!--Fin Slider-->
+      </main>
 
-			</table>
-		</article>
-	</section>
-	<!-- inicio de footer --> 
-	<footer id="pepe">
-		<h3>LOGO</h3>
-		<h3>RRSS</h3>
-		<h3>CONTACTO</h3>
-	</footer>
-</body>
+      <div id="main-home__content1">
+        <img src="./img/imagen-content1.jpg" class="content__img"/>
+      
+        <p>
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          accusamus ut quos adipisci repellat commodi, tempore molestias dolores
+          voluptates repellendus. Quod sequi quasi repellat voluptates
+          reiciendis odio corrupti neque quia."
+        </p>
+      </div>
+      <div id="main-home__content2">
+        <img src="./img/imagen-content2.jpg" class="content__img"/>
+        <p>
+         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          adipisci, atque iste blanditiis repudiandae voluptate. Reprehenderit
+          aliquid commodi ea deserunt, nihil itaque architecto ullam, vero
+          tenetur fugit adipisci, corrupti omnis."
+        </p>
+      </div>
+      <div id="main-home__content3">
+        <img src="./img/imagen-content3.jpg" class="content__img"/>
+        <p>
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas
+          praesentium, amet corrupti minima tempore similique cum quaerat
+          impedit hic dolor reprehenderit quam cumque laboriosam nulla nam ut
+          rerum eos."
+        </p>
+      </div>
+      <footer>
+        <div class="footer__derechos"><p> © 2021 Café con Sentido.</p></div>
+      </footer>
+    </div>
+  </body>
 </html>
