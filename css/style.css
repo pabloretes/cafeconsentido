@@ -10,7 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 /* Menu
 -------------------------------------------------- */
 .navbar {
@@ -19,7 +18,7 @@ body {
   background: linear-gradient(90deg, #78b2c4, #eae5d2);
 }
 
-nav li a{
+nav li a {
   color: black !important;
 }
 
@@ -35,8 +34,8 @@ nav li a:hover {
 
 /* Carrusel
 -------------------------------------------------- */
-.carousel-caption{
-  background:darkgoldenrod;
+.carousel-caption {
+  background: darkgoldenrod;
   opacity: 0.6;
   color: white;
 }
@@ -47,6 +46,12 @@ footer {
   text-align: center;
   height: 50px;
   padding: 10px;
+}
+
+/* Otros customs para Boostrap
+--------------------------------------------------- */
+.img-fluid-logo {
+  width: 200px;
 }
 
 /*
