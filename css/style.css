@@ -48,10 +48,18 @@ footer {
   padding: 10px;
 }
 
-/* Otros customs para Boostrap
+/* Otros customs o Boostrap
 --------------------------------------------------- */
 .img-fluid-logo {
   width: 200px;
+}
+
+.content__img {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10% ;
 }
 
 /*
