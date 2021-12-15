@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 * {
   padding: 0;
@@ -9,6 +10,36 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* Menu
+-------------------------------------------------- */
+.navbar {
+  border-radius: 0px;
+  border: 0px;
+  background: linear-gradient(#78b2c4 , #eae5d2 70%)
+}
+
+nav li a{
+  color: black !important;
+}
+
+nav li a:hover {
+  background: #78b2c4 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Italianno', cursive;
+  font-size: 60px !important;
+}
+
+.carousel-item img{
+
+}
+
+
+
+/*
 .container-home {
   display: grid;
   height: 120vh;
@@ -79,8 +110,9 @@ body {
   text-align: center;
 }
 
+*/
 
-/* Header: Todo lo que está en el header */
+/* Header: Todo lo que está en el header
 header {
   background: white;
   grid-area: header;
@@ -145,9 +177,9 @@ header label:hover {
   flex-direction: column;
 }
 
-/*Fin Header*/
+Fin Header*/
 
-/* Main: todo lo que esta en el Main */
+/* Main: todo lo que esta en el Main 
 main {
   grid-area: main;
 }
@@ -217,31 +249,31 @@ main img {
   }
 }
 
-/*Fin Main*/
-
+Fin Main*/
+/*
 #main-home__content1 {
-  /*background: #cfad89;*/
+  /*background: #cfad89;
   grid-area: content1;
   font-style: italic;
   font-size: 14px;
 }
 
 #main-home__content2 {
-  /*background: #1088a0;*/
+  /*background: #1088a0;
   grid-area: content2;
   font-style: italic;
   font-size: 14px;
 }
 
 #main-home__content3 {
-  /*background: #818792;*/
+  /*background: #818792;
   grid-area: content3;
   font-style: italic;
   font-size: 14px;
 }
 
 #talleres__content1 {
-  /*background: #cfad89;*/
+  background: #cfad89;
   grid-area: content1;
   font-style: italic;
   font-size: 14px;
@@ -249,14 +281,14 @@ main img {
 }
 
 #talleres__content2 {
-  /*background: #cfad89;*/
+  /*background: #cfad89;
   grid-area: content2;
   font-style: italic;
   font-size: 14px;
 }
 
 #talleres__content3 {
-  /*background: #cfad89;*/
+  /*background: #cfad89;
   grid-area: content3;
   font-style: italic;
   font-size: 14px;
@@ -407,3 +439,4 @@ footer {
     }
   }
 }
+*/
