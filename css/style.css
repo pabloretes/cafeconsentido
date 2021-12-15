@@ -16,7 +16,7 @@ body {
 .navbar {
   border-radius: 0px;
   border: 0px;
-  background: linear-gradient(#78b2c4 , #eae5d2 70%)
+  background: linear-gradient(90deg, #78b2c4, #eae5d2);
 }
 
 nav li a{
@@ -33,11 +33,21 @@ nav li a:hover {
   font-size: 60px !important;
 }
 
-.carousel-item img{
-
+/* Carrusel
+-------------------------------------------------- */
+.carousel-caption{
+  background:darkgoldenrod;
+  opacity: 0.6;
+  color: white;
 }
 
-
+footer {
+  background: #78b2c4;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}
 
 /*
 .container-home {
