@@ -38,7 +38,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                >
                   Inicio
                 </a>
               </li>
@@ -70,55 +74,94 @@
         </div>
       </nav>
     </header>
-    <div class="container-contactanos">
-    
-      <main class="main--degrade1">
-        <div>
-          <h1 class="main__h1">Habla con un Coach</h1>
+    <main>
+      <div class="container marketing">
+        <div class="row py-lg-5">
+          <h1 class="fw-light">Contáctanos</h1>
+          <p class="lead text-muted">
+            Café con Sentido Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Illum, sed voluptatum beatae libero ut velit adipisci! Officia
+            fugiat porro tempora reiciendis libero ea! Eveniet corporis numquam
+            fuga sed optio ipsa.
+          </p>
         </div>
-      </main>
-      <div class="contactanos__content">
-        <form action="#">
-          <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="ingrese su nombre" />
-          </div>
-          <div>
-            <label for="email">email</label>
-            <input type="email" id="email" placeholder="ingrese su email" />
-          </div>
-
-          <div>
-            <!--Radio Button-->
-            <label for="tipo">Empresa</label>
-            <input type="radio" name="tipo" value="empresa" />
-            <label for="tipo">Persona</label>
-            <input type="radio" name="tipo" value="persona" />
-          </div>
-          <div>
-            <!--Text Area-->
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Ingrese su comentario"
-            ></textarea>
-          </div>
-
-          <!--Botones-->
-          <div>
-            <input type="submit" value="Enviar ahora" />
-            <input type="reset" value="Borrar todo" />
-          </div>
-        </form>
       </div>
 
-    </div>
-    <footer class="container-fluid">
-      <span>&copy; Café con Sentido. </span>
-    </footer>
+      <div class="container -sm">
+        <form>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">
+              Nombre
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="nombre completo"
+            />
+          </div>
 
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">
+              Email
+            </label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">
+              Deje su mensaje
+            </label>
+            <textarea class="form-control" rows="10"></textarea>
+          </div>
+
+          <div class="row mb-3"></div>
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">
+              ¿Eres persona o empresa?
+            </legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="gridRadios1">
+                  Empresa
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="gridRadios2">
+                  Persona
+                </label>
+              </div>
+            </div>
+
+            <div class="row py-lg-5">
+              <button type="submit" class="contacto__btn-enviar">Enviar</button>
+            </div>
+       
+          </fieldset>
+        </form>
+      </div>
+      <footer class="container-fluid">
+        <span>&copy; Café con Sentido.</span>
+      </footer>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
