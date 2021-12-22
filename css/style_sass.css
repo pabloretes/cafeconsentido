@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+footer {
+  background: #78b2c4;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Body
+-------------------------------------------------- */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Menu
+-------------------------------------------------- */
+.navbar {
+  border-radius: 0px;
+  border: 0px;
+  background: -webkit-gradient(linear, left top, right top, from(#78b2c4), to(#eae5d2));
+  background: linear-gradient(90deg, #78b2c4, #eae5d2);
+}
+
+.navbar nav li a {
+  color: black !important;
+}
+
+.navbar nav li a:hover {
+  background: #78b2c4 !important;
+}
+
+.navbar .navbar-brand {
+  color: white !important;
+  font-family: 'Italianno', cursive;
+  font-size: 60px !important;
+}
+
+/* Carrusel
+-------------------------------------------------- */
+.carousel-inner .carousel-item .carousel-caption {
+  background: darkgoldenrod;
+  opacity: 0.6;
+  color: white;
+}
+
+/* Otros customs o Boostrap
+--------------------------------------------------- */
+.img-fluid-logo {
+  width: 200px;
+}
+
+.content-img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+/* AQUI USO UN & */
+.container-sm__btn-enviar {
+  background-color: #eae5d2;
+  border: 0;
+}
+/*# sourceMappingURL=style_sass.css.map */
