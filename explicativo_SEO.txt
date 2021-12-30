@@ -1,0 +1,28 @@
+// Titulos
+-------------------------------------------
+* Los 5 htmls tienen su titulo propio y unico
+* Los titulos fueron armado [nombre pag] | [nombre sitio]
+
+
+// Meta "keywords" y "description"
+-------------------------------------------
+* Pagina: Inicio | Cafe con Sentido --> Lista
+* Pagina: Quienes Somos | Cafe con Sentido --> Lista
+* Pagina: Talleres y Aprendizajes | Cafe con Sentido --> Lista
+* Pagina: Confian en Nosotros | Cafe con Sentido --> Lista
+* Pagina: Contactanos | Cafe con Sentido
+
+Todas las paginas poseen Meta "keywords" y "description"
+
+//Encabezados
+-------------------------------------------
+* Todas las paginas tienen un H1
+* Los encabezados estan moderados
+
+// Jeararquia de archivos
+-------------------------------------------
+* Index en la raiz
+* Paginas html dentro de la carpeta pages
+* scss dentro de la carpeta sass
+* imagenes dentro de la carpeta img
+
